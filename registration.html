@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- <style media="screen">
+      table,td{
+        border: 2px solid black;
+        border-collapse: collapse;
+      }
+    </style> -->
+  </head>
+  <body style="background-color: lightblue">
+    <form action="week1.html" method="post" target="_parent">
+      <center>
+        <fieldset>
+          <legend><center><h1> Registration </h1></center></legend>
+          <table>
+            <tr>
+              <div>
+                <td><label for="username"> Username: </label></td>
+                <td><input type="text" id="username" name="Username"></td>
+              </div>
+            </tr>
+            <br>
+
+            <tr>
+              <div>
+                <td><label for="pass"> Password: </label></td>
+                <td><input type="password" id="pass" name="password" minlength="8" required></td>
+              </div>
+            </tr>
+            <br>
+
+            <tr>
+              <div>
+                <td><label for="pass"> Confirm Password: </label></td>
+                <td><input type="password" id="pass" name="password" minlength="8" required></td>
+              </div>
+            </tr>
+            <br>
+
+            <tr>
+              <div>
+                <td><label for="mail"> Email: </label></td>
+                <td><input type="email" id="mail" name="mail"></td>
+              </div>
+            </tr>
+            <br>
+
+            <tr>
+              <div>
+                <td><label for="mobile"> Mobile Number: </label></td>
+                <td><input type="tel" id="mobile" name="mobile"></td>
+              </div>
+            </tr>
+            <br>
+
+            <tr>
+              <div>
+                <td><label for="dob"> Date of Birth: </label></td>
+                <td><input type="date" id="dob" name="dob"></td>
+              </div>
+            </tr>
+            <br>
+
+            <tr>
+              <div>
+                <td><label for="add"> Address: </label></td>
+                <td><input type="text" id="add" name="address"></td>
+              </div>
+            </tr>
+            <br>
+
+            <tr>
+              <div>
+                <td width="20px"><label for="gender"> Gender: </label></td>
+                <!-- <td width="20px"> -->
+                  <td>
+                    <input type="radio" id="male" name="gender">
+                    <label for="male">Male</label>
+                  </td>
+                  <td>
+                    <input type="radio" id="female" name="gender">
+                    <label for="female">Female</label>
+                  </td>
+                <!-- </td> -->
+              </div>
+            </tr>
+          </table>
+
+          <div>
+            <input type="submit" name="Submit" value="Submit">
+          </div>
+
+        </fieldset>
+      </center>
+    </form>
+  </body>
+</html>
